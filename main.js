@@ -108,6 +108,7 @@ resetButton.addEventListener('click', function (e) {
 
     winnerName.innerHTML = 'X to play';
     winnerName.classList.add('winner-display');
+    winnerName.classList.add('blinking');
 
 });
 
